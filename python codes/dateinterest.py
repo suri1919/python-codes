@@ -18,8 +18,8 @@ print("Total Interest Amount is:",S)
 
 
 from datetime import date
-s=date(2022,10,20)
-e=date(2023,10,20)
+s=date(2022,10,20)    #date format (yyyy/mm/dd)
+e=date(2023,10,20)    #date format (yyyy/mm/dd)  
 d=(e-s).days
 print(d)
 n=float(input("Enter The Interest Amount:"))
